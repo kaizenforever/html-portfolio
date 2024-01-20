@@ -1,0 +1,1 @@
+document.write("Questo è un test di JavaScript linkato al file HTML.");
