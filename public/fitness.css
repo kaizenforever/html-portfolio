@@ -35,7 +35,7 @@ h2 {
 
 ul, ol {
 background-color: rgba(172, 27, 27, 0.056);
-list-style-type: square;
+list-style-type: circle;
 text-align: justify;
 text-decoration: none;
 font-size: large;
@@ -56,4 +56,22 @@ figcaption {
   font-style: italic;
   font-size: small;
   
+}
+.footer {
+  text-align: center;
+}
+.bottom {
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto
 }
