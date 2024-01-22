@@ -32,10 +32,11 @@
 <body>
   <h1> Supplements</h1>
   <p> This section contains a list of supplements. </p>
-  <strong>
-    <script src="Supplements.js"> </script>
-  </strong>
+  <strong> <script src="Supplements.js"> </script> </strong>
   <!-- Strong per dare il grassetto, script per far funzionare il JS -->
+
+
+
   <p> It is important to highlight and preface the fact that many (or most, we could argue) supplements may provide
     limited benefits or no benefits at all, if one takes them without starting from a deficiency condition.</p>
 
@@ -52,20 +53,20 @@
 
   <!-- QUI INIZIA TOC -->
   <h2> Contents</h2>
-  <ul>
+  <ol>
     <li><a href="#General health and longevity">General health and longevity</a></li>
     <ul>
-      <li> SUPPLEMENT1</li>
-      <li> SUPPLEMENT2</li>
-      <li> SUPPLEMENT3</li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
     </ul>
 
 
     <li><a href="#Cardiovascular health">Cardiovascular health</a></li>
     <ul>
-      <li> SUPPLEMENT1 </li>
-      <li> SUPPLEMENT2</li>
-      <li> SUPPLEMENT3</li>
+      <li>  </li>
+      <li> </li>
+      <li> </li>
       </li>
     </ul>
 
@@ -81,13 +82,13 @@
 
     <li><a href="#Brain and mental health">Brain and mental health</a></li>
     <ul>
-      <li> SUPPLEMENT1 </li>
-      <li> SUPPLEMENT2 </li>
-      <li> SUPPLEMENT3</li>
+      <li>  </li>
+      <li>  </li>
+      <li> </li>
       </li>
     </ul>
 
-  </ul>
+  </ol>
 
 
   <!-- QUI FINISCE TOC -->
@@ -169,7 +170,7 @@
   <h3 id="Sexual and reproductive health"> Sexual and reproductive health </h3>
   <p> This category includes a series of supplements with sexual health benefits, and, more specifically, a focus on
     reproductive health. </p><br>
-  <p>Do you wish to become like him?</p> <br>
+
   <img src="https://gifdb.com/images/high/buffed-guy-holding-chest-muscle-growth-ipwo6un7t4ocf7f5.webp" width="450"
     class="center" alt="Bodybuilder feeling his own muscles"><br>
   <p>I guess everyone, once in their lives, has wondered what it would take or feel to be like this.</p> <br>
@@ -312,8 +313,11 @@
   <fieldset>
     <legend>Do you want to know more about supplements? You can leave us a message here. </legend>
     <textarea name="request" placeholder="Submit yor requests here"> Type your request here. </textarea>
-    <input type="submit" value="submit">
+    <input type="submit" value="Submit" id="submit"> 
   </fieldset>
+
+  <input type="text" id="myInput">
+<button onclick="retrieveInfo()">Retrieve Information</button>
 
 
  
