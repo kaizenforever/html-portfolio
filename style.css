@@ -1,0 +1,90 @@
+*{
+  font-family: Roboto Condensed, sans-serif;
+}
+
+figcaption{
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  font-weight:300;
+  color:black;
+}
+
+img{
+  max-width: 40%;
+  max-height: 40%;
+  height: auto;
+  border-style:solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 30%;
+}
+
+figure{
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: brown;
+}
+
+h2{
+  font-size: 30px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+h3{
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+
+.bottom{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color:black;
+}
+
+.top-section{
+  text-align: center;
+  
+}
+.primoparagrafo{
+  text-align: center;
+  font-weight: normal;
+}
+
+.footer{
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  font-weight:lighter;
+  color:rgb(0, 0, 0);
+}
+
+.navigation{
+
+  text-align: center;
+  color:rgb(0, 0, 0);
+}
+
+.separator{
+  border-left: 1px solid #ccc; /* Thin vertical line */
+  margin: 0 10px;  /* Space around the line */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.gif
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
