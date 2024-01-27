@@ -1,103 +1,131 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="./style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="index.js">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title> Homepage </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/9033e5a9c2.js" crossorigin="anonymous"></script>
+    <title>Homepage</title>
 </head>
 
 <body>
-  <h1>
-  <div class="homepage">
-  <i class='bx bx-home'></i>
-   Homepage </h1></div>
-  <figure> <img src="./assets/images/io.jpg" alt="A picture of me"></figure>
-  <figcaption> A picture of me.</figcaption>
-  <br>
-   <div class="primoparagrafo"><p>Welcome to my new website. Please, be kind, I'm a newbie :) <br> Here you can find the structure of my website. </p></div>
-
-
-   <h2>
-  <div class="navigation">
-  <i class='bx bxs-navigation'></i>
-  Navigation</h2></div>
-  <ol>
-    <li><h3>Introduction</h3></li>
-    <ul>
-      <li><a href="./public/about.html">About me</a></li>
-     </ul>
-    
-
-    <li><h3>
-    <div class="topics">
-    <i class='bx bxs-book'></i>
-    Topics</h3></li></div>
-  <ul>
-    <li><a href="./public/fitness.html">Fitness</a></li>
-    <li><a href="./public/gym.html">Gym</a></li>
-    <li><a href="./public/nutrition.html">Nutrition</a></li>
-    <li><a href="./public/supplements.html">Supplements</a></li>
-    <li><a href="./public/nootropics.html">Nootropics</a></li>
-    <li><a href="./public/sleep.html">Sleep</a></li>
-    <li><a href="./public/goodhabits.html">Good habits</a></li>
-    <li><a href="./public/malesexualhealth.html">Male Sexual Health</a></li>
-    <li><a href="./public/femalesexualhealth.html">Female Sexual Health</a></li>
-    <li><a href="./public/brain.html">Brain and Brain Health</a></li>
-    <li><a href="./public/gut.html">Gut and Gut Health</a></li>
-  </ul>
-
-  <!-- SIMBOLO <i class='bx bxs-category' ></i> -->
-  
-    <li><h3>
-    <div class="tags">
-    <i class='bx bx-hash'></i>
-    Tags</h3>
-    </li>
-    </div>
-  <ul>
-  <li><a href="./public/performance.html">#Performance</a></li>
-  <li><a href="./public/weightloss.html">#Weight Loss</a></li>
-  <li><a href="./public/energy.html">#Energy</a></li>
-  <li><a href="./public/mood.html">#Mood</a></li>
-  <li><a href="./public/productivity.html">#Productivity</a></li>
-  </ul>
-
-  <li><h3>
-    <div class="areas">
-      <i class='bx bxs-category' ></i>
-    Areas</h3>
-  <ul>
-    <li> <a href="./public/forum.html">Forum</a></li>
-    <li> <a href="./public/store.html">Store</a></li>
-  </ul>
-
-  <br>
-
-</ol>
-
-  <hr>
-    <div class="bottom">
-        <p>
-        <a href="./index.html">Home</a>
-        <span class="separator"></span>
-        <a href="./public/contact.html">Contact me</a>
-        <span class="separator"></span>
-        
-        </p>
-        
+    <h1>My Fit Hub</h1>
+    <img class=logo src="assets/images/logo_ultimo.png" alt="My Fit Hub logo">
+    <div class="homepage-section">
+        <div class="homepage">
+            <h1 class="h1-homepage"> <i class='bx bx-home'></i> Homepage</h1>
         </div>
-        
-        
-        <div class="footer">
-        Copyrights © 2024 - Luca Giacci
-       </div>
-</body>
+        <div class="first-paragraph">
+            <p>
+                Welcome to my new website.
+                <br>
+                This is a test-website.
+                <br>
+                I'm still a newbie in web-development. Please, be kind &#128517
+                <br>
+                Here you can find the full structure of the website.
+                <br>
+                Don't hesitate to provide a <a href="./public/contact.html">feedback</a> if you have any.
+            </p>
+        </div>
+    </div>
+    <hr>
 
+    <h2 class="navigation"><i class='bx bxs-navigation'></i> Navigation</h2>
+    <p style="text-align:center">Press on the <span class="special-word">navigation links</span> below to dig into the hole.
+        <br> Safe travels! &#128519</p>
+    <hr>
+    <nav class="navigationcolumn">
+        <ol>
+            <li>
+                <a href="./public/introduction.html">
+                    <h2><i class='bx bx-note'></i>Introduction</h2>
+                </a>
+                <ul>
+                    <li><i class="fa-solid fa-user"></i> <a href="./public/about.html">About me</a></li>
+                    <li><i class="fa-regular fa-envelope"></i> <a href="./public/contact.html">Contact me</a></li>
+                    <li><i class="fa-solid fa-list-check"></i> <a href="./public/project.html">The Project</a></li>
+                </ul>
+
+            </li>
+            <br>
+            <li>
+                <a href="./public/areas.html">
+                    <h2><i class='bx bxs-category'></i>Areas</h2>
+                </a>
+                <ul>
+                    <li><i class="fa-solid fa-person-running"></i> <a href="./public/fitness.html">Fitness</a></li>
+                    <li><i class="fa-solid fa-dumbbell"></i> <a href="./public/gym.html">Gym</a></li>
+                    <li><i class="fa-solid fa-apple-whole"></i> <a href="./public/nutrition.html">Nutrition</a></li>
+                    <li><i class="fa-sharp fa-solid fa-pills"></i> <a href="./public/supplements.html">Supplements</a>
+                    </li>
+                    <li><i class="fa-solid fa-brain"></i> <a href="./public/nootropics.html">Nootropics</a></li>
+                    <li><i class="fa-solid fa-bed"></i> <a href="./public/sleep.html">Sleep</a></li>
+                    <li><i class="fa-solid fa-arrows-spin"></i> <a href="./public/goodhabits.html">Habits and
+                            Practices</a></li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <a href="./public/topics.html">
+                    <h2><i class="fa-solid fa-bookmark"></i>Topics</h2>
+                </a>
+                <ul>
+                    <li><i class="fa-solid fa-mars"></i> <a href="./public/malesexualhealth.html">Male Sexual Health</a>
+                    </li>
+                    <li><i class="fa-solid fa-venus"></i> <a href="./public/femalesexualhealth.html">Female Sexual
+                            Health</a></li>
+                    <li><i class="fa-solid fa-brain"></i> <a href="./public/brain.html">Brain and Brain Health</a></li>
+                    <li><i class="fa-solid fa-poo"></i> <a href="./public/gut.html">Gut and Gut Health</a></li>
+                    <li><i class="fa-solid fa-weight-scale"></i> <a href="./public/weightloss.html">Weight Loss</a></li>
+                    <li><i class="fa-regular fa-face-frown-open"></i> <a href="./public/hairloss.html">Hair Loss</a>
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <a href="./public/tags.html">
+                    <h2><i class="fa-solid fa-tags"></i>Tags</h2>
+                </a>
+                <ul>
+                    <li><i class="fa-solid fa-person-running"></i> <a href="./public/performance.html">#Performance</a>
+                    </li>
+                    <li><i class="fa-solid fa-bolt"></i> <a href="./public/energy.html">#Energy</a></li>
+                    <li><i class="fa-regular fa-face-smile-beam"></i> <a href="./public/mood.html">#Mood</a></li>
+                    <li><i class="fa-regular fa-circle-check"></i> <a
+                            href="./public/productivity.html">#Productivity</a></li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <a href="./public/sections.html">
+                    <h2><i class='bx bxs-category'></i>Sections</h2>
+                </a>
+                <ul>
+                    <li><i class="fa-solid fa-comments"></i> <a href="./public/forum.html">Forum</a></li>
+                    <li><i class="fa-solid fa-screwdriver-wrench"></i> <a href="./public/tools.html">Tools and
+                            Utilities</a></li>
+                    <li><i class="fa-solid fa-store"></i> <a href="./public/store.html">Store</a></li>
+                </ul>
+            </li>
+        </ol>
+    </nav>
+    <br>
+
+    <hr>
+    <div class="bottombar">
+        <a href="./index.html" class="bottombar" style="color:rgb(0, 119, 255)">Return to the top of the
+            page.</a>
+    </div>
+    <br>
+    <footer>
+        <p>Copyrights © 2024 - Luca Giacci</p>
+    </footer>
+    </div>
+</body>
 
 </html>

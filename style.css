@@ -1,90 +1,165 @@
-*{
-  font-family: Roboto Condensed, sans-serif;
+body {
+  font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+  background: rgb(25,25,30);
+  background: radial-gradient(circle, rgba(25,25,30,1) 0%, rgba(25,25,25,0.9841986455981941) 33%, rgba(4,4,5,1) 66%, rgba(25,25,30,0.835214446952596) 100%);
 }
-
-figcaption{
+  h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
   text-align: center;
-  font-style: italic;
-  font-size: 15px;
-  font-weight:300;
-  color:black;
+  align-items: center;
 }
-
-img{
-  max-width: 40%;
-  max-height: 40%;
-  height: auto;
-  border-style:solid;
-  border-color: black;
-  border-width: 1px;
-  border-radius: 30%;
-}
-
-figure{
-  text-align: center;
-  font-weight: lighter;
-}
-
-
-h1{
-  font-size: 40px;
-  text-align: center;
-  color: brown;
-}
-
-h2{
+h2 {
+  color: white;
   font-size: 30px;
-  text-align: justify;
-  color: rgb(0, 0, 0);
+  font-weight: 800;
 }
-
-h3{
+ul {
+  color: white;
+  list-style: disc;
+  font-size: medium;
+}
+ol {
+  color: white;
+}
+li, ul, a, p, i {
   font-size: 20px;
-  text-align: justify;
-  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-variant: small-caps;
+  color: white;
+  background-color: transparent;
+}
+hr {
+  border-width: 0.5px;
+  border-style: solid;
+  color: rgb(242, 242, 242);
+}
+img {
+  background-color: transparent;
+  border-radius:100%;
+  border:solid;
+  border-width: 1px;
+  border-color:white;
 }
 
 
-.bottom{
+.index-logo-background {
+  background-image: url("./assets/images/logo_ultimo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  padding: 20px;
+  background-color: transparent;
+}
+.first-paragraph {
+  text-align: center;
+  background-color: transparent;
+}
+img.logo {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  background-color: transparent;
+}
+.logo-text {
+  background-color: transparent;
+}
+
+
+span {
+  color: white;
+  background-color: transparent;
+}
+
+/*SECTIONS*/
+
+section.left-sidebar {
+  text-align: center;
+  align-items: center;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #2f2d2da0; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin-left: 1px;
+  border-color: white white white white;
+  border-width: 2px;
+  border-right-color: white;
+  border-radius: 1%;
+  border-style: solid;
+  padding-top: 20px;
+  padding: 20;
+}
+section.left-sidebar header img {
+  width: 80%;
+  height: 40%;
+  border-color: transparent;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: transparent;
+}
+section.left-sidebar header {
+  text-align: center;
+  background-color: transparent;
+  background: none;
+}
+section.left-sidebar .menu {
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10 10 10 10;
+  background-color: transparent;
+  margin: 0;
+}
+section.maincontent {
+  margin-top: 10px;
+  margin-left: 150px;
+  padding: 0px 10px;
+}
+.sidebar-menu {
+  color: rgb(0, 119, 255);
+  background: transparent;
+}
+header image {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+section {
+  padding: 15px 15px 15px 15px;
+  display: block;
+}
+.navigation {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+.bottombar {
+  background-color: transparent;
+  color: rgb(0, 119, 255);
   text-align: center;
   font-size: 15px;
   font-weight: 300;
-  color:black;
 }
-
-.top-section{
+footer {
   text-align: center;
-  
-}
-.primoparagrafo{
-  text-align: center;
-  font-weight: normal;
-}
-
-.footer{
-  text-align: center;
-  font-style: italic;
   font-size: 15px;
-  font-weight:lighter;
-  color:rgb(0, 0, 0);
+  font-weight: 300;
 }
-
-.navigation{
-
-  text-align: center;
-  color:rgb(0, 0, 0);
+/*SPECIAL ELEMENTS*/
+.special-word {
+  background-color: transparent;
+  text-decoration: underline;
 }
-
-.separator{
-  border-left: 1px solid #ccc; /* Thin vertical line */
-  margin: 0 10px;  /* Space around the line */
-  height: 50px; /* Adjust the height as needed */
-}
-
-.gif
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.italic {
+  font-style: italic;
 }
